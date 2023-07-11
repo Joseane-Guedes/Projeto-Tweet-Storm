@@ -18,7 +18,7 @@
 
 - Ao realizar a quebra do texto, o projeto garante que as palavras não sejam cortadas, mantendo a integridade do conteúdo. Isso evita quebras incompreensíveis e preserva a legibilidade.
 
-- Testes automatizados em jest para validar o funcionamento correto do projeto. Isso proporciona maior confiabilidade e assegura que o código se comporte conforme o esperado em diferentes cenários.
+- Testes automatizados em jest para validar o funcionamento correto do projeto.
 
 ## ⚒️ Tecnologias utilizadas
 
@@ -27,20 +27,29 @@
 
 ## 🧪 Jest
 
-<p align="justify">O Jest é uma ferramenta essencial no desenvolvimento de software, pois permite a criação de testes automatizados robustos e confiáveis. Além disso, o Jest oferece suporte a cobertura de código, auxiliando na identificação de áreas não testadas e garantindo a qualidade do software. Sua simplicidade de uso e integração com outras ferramentas tornam o Jest uma escolha popular para a comunidade de desenvolvedores </p>
+<p align="justify">O Jest é uma ferramenta essencial no desenvolvimento de software, pois permite a criação de testes automatizados robustos e confiáveis. Além disso, o Jest oferece suporte a cobertura de código, auxiliando na identificação de áreas não testadas e garantindo a qualidade do software. </p>
 
 <h1 align="center">  <img src="./.github/coberturaTestes.png" width="800px" alt="Logo ZenKlub"> </h1>
 
-## 📽️ Demo: teste automatizado em jest
+## 🚀 Como executar
 
-1. No terminal do editor de código utilizado, rodar o comando `npm test` para executar todos os testes automatizados definidos no projeto.
-2. Depois, rodar o comando `npm run test:coverage` que fornece informações sobre a cobertura testes do código, ajudando a identificar áreas não testadas e melhorar a qualidade do código através de um relatório detalhado.
+- Clone o repositório e acesse a pasta;
+- Instale as dependências com `npm i`;
+- Inicie o projeto com `npm run dev`;
+- Para rodar os testes use o `npm test`;
+- Depois, rodar o comando `npm run test:coverage` que fornece informações sobre a cobertura testes do código
+
+## 📽️ Demo: teste automatizado em jest
 
 <div align="center">
   <p align="center">
      <img src="./.github/jest.gif" alt="Teste automatizado jest demo">
   </p>
 </div>
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 </br>
 <p align="center"> Criado por
