@@ -4,7 +4,7 @@
 
 ## 👩🏽‍💻 Descrição
 
-<p align="justify">Projeto consiste criar uma função em TypeScript que transforma um texto em uma sequência de tweets (Tweet Storm) respeitando as limitações de tamanho do Twitter. A função quebra o texto em blocos menores de até 140 caracteres, incluindo a paginação. Cada tweet é numerado e possui a indicação da página atual e o total de páginas. O projeto também inclui testes automatizados para validar diferentes cenários.</p>
+<p align="justify">O projeto consiste em desenvolver uma função TypeScript que transforma um texto em uma sequência de tweets (Tweet Storm), respeitando o limite de tamanho do Twitter. Os tweets são divididos em blocos de até 140 caracteres, incluindo paginação numerada para indicar a página atual e o total de páginas. Testes automatizados foram implementados para validar diversos cenários.</p>
 
 ## 📝 Requisitos
 
@@ -15,8 +15,6 @@
 - Tratamento adequado para qualquer tamanho de texto: O projeto é capaz de lidar com textos de diferentes tamanhos, desde textos com apenas 1 caractere até textos com milhões de caracteres. A função de quebra é escalável e eficiente.
 
 - Cada tweet gerado pelo projeto inclui a indicação da página atual e o total de páginas. Isso permite aos leitores entenderem em qual parte do texto estão e quantas páginas existem no total.
-
-- Ao realizar a quebra do texto, o projeto garante que as palavras não sejam cortadas, mantendo a integridade do conteúdo. Isso evita quebras incompreensíveis e preserva a legibilidade.
 
 - Testes automatizados em jest para validar o funcionamento correto do projeto.
 
@@ -37,7 +35,7 @@
 - Instale as dependências com `npm i`;
 - Inicie o projeto com `npm run dev`;
 - Para rodar os testes use o `npm test`;
-- Depois, rodar o comando `npm run test:coverage` que fornece informações sobre a cobertura testes do código
+- Depois, rodar o comando `npm run test:coverage` que fornece informações sobre a cobertura testes do código.
 
 ## 📽️ Demo: teste automatizado em jest
 
