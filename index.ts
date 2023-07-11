@@ -1,4 +1,4 @@
-export function createTweetStorm(text: string): string[] {
+export function textToTweetStorm(text: string): string[] {
     const maxLength = 136; // Considerando o espaço para [PAG]/[TOT]
     const tweets: string[] = [];
 
